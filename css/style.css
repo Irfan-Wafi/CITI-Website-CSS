@@ -1,0 +1,703 @@
+.product {
+    background: #F3FCFE;
+    display: inline-block;
+    padding: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    transition: background 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.parent {
+    margin: auto;
+    width: fit-content;
+    padding-top: 40px;
+}
+.product:hover {
+    background: antiquewhite;
+}
+.product img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.product a {
+    text-decoration: none;
+}
+.product a h5 {
+    text-align: center;
+    line-height: 150%;
+    color: rgb(54, 0, 91);
+}
+body {
+    background: #FAF0F0;
+}
+nav ul a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+.course {
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1300px;
+    background: #FAF9FD;
+    border-radius: 25px;
+    display: block;
+}
+.course h2 {
+    text-align: center;
+    font-family: "Roboto", system-ui;
+    font-size: 40px;
+}
+.pou {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #605F62;
+    line-height: 60%;
+}
+
+
+   
+.course-list {
+    margin-right: 10px;
+    padding: 11px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.course-list h6 {
+
+    font-family: "Roboto", system-ui;
+    color: #DF6812;
+}
+.course-list img {
+    width: 400px;
+    object-fit: cover;
+}
+.course-list2 {
+    padding: 11px;
+    margin-right: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.course-list2 img {
+    width: 400px;
+}
+.course-list3 {
+    padding: 11px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.course-list3 img {
+    width: 400px;
+}
+.course-list a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", system-ui;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+table tr td {
+    padding-left: 150px;
+    padding-bottom: 5px;
+    background: #f12711;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f5af19, #f12711);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f5af19, #f12711);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 30px;
+    color: white;
+    font-family: "Roboto", system-ui;
+    font-size: 15px;
+}
+table tr td img {
+        padding-right: 20px;
+    padding-top: 5px;
+}
+.container ul li {
+    margin-left: 100px;
+    padding-top: 30px;
+}
+table tr td #pic2 {
+    padding-left: 100px;
+}
+nav .container {
+
+    width: 1000px;
+    margin: auto;
+}
+nav ul li a:hover {
+    background: rgb(27, 60, 76);
+    color: white;
+    transition: 0.5s;
+}
+.checked {
+    color: orange;
+}
+.course-list h4 {
+    color: #434242;
+    font-size: 13px;
+    padding-top: 10px;
+
+}
+.course-list2 h6 {
+
+    font-family: "Roboto", system-ui;
+    color: #DF6812;
+
+}
+.course-list2 a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: "Roboto", system-ui;
+}
+.course-list3 a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: "Roboto", system-ui;
+}
+.course-list2 h4 {
+    color: #434242;
+    font-size: 13px;
+    padding-top: 10px;
+}
+.course-list3 h4 {
+    color: #434242;
+    font-size: 13px;
+    padding-top: 10px;
+}
+.course-list3 h6 {
+
+    font-family: "Roboto", system-ui;
+    color: #DF6812;
+}
+.course-list form button {
+    display: inline;
+    background: transparent;
+    border-color: coral;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    margin-left: 250px;
+}
+.course-list form button:hover {
+    background: coral;
+    color: white;
+    transition: 0.3s;
+}
+.course-list2 form button {
+    display: inline;
+    background: transparent;
+    border-color: coral;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    margin-left: 250px;
+}
+.course-list2 form button:hover {
+    background: coral;
+    color: white;
+    transition: 0.3s;
+}
+.course-list3 form button {
+    display: inline;
+    background: transparent;
+    border-color: coral;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    margin-left: 250px;
+}
+.course-list3 form button:hover {
+    background: coral;
+    color: white;
+    transition: 0.3s;
+}
+.head h1 {
+
+    display: inline;
+    font-family: "Roboto", system-ui;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.head h1 span {
+    color: #f12711;
+}
+.head {
+    width: 500px;
+    display: inline;
+}
+.head h1 p {
+    font-size: 50px;
+    color: #434242;
+    padding-top: 10px;
+}
+.container2{
+    margin-top: 80px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1300px;
+    border-radius: 25px;
+    display: block;
+}
+
+.data1{
+    margin-left: 25px;
+    margin-right: 10px;
+    padding: 11px;
+    padding: 20px;
+    width: 370px;
+    height: 325px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #F8FCE9;
+    border-radius: 25px;
+}
+.data1 p{
+    font-size: 16px;
+    color: #605F62;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+     text-align: justify;
+     line-height: 150%;
+}
+.data1 h2{
+    font-size: 40px;
+    color: #66902B;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+    
+}
+.data1 h5{
+    font-size: 18px;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+
+.data2 p{
+    font-size: 16px;
+    color: #605F62;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+    text-align: justify;
+    line-height: 150%;
+}
+.data2{
+    margin-right: 10px;
+    padding: 11px;
+    padding: 20px;
+    width: 370px;
+    height: 325px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #FFF8ED;
+    border-radius: 25px;
+}
+
+.data2 h2{
+    font-size: 40px;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+
+.data2 h5{
+    font-size: 18px;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+.data3{
+    margin-right: 10px;
+    padding: 11px;
+    padding: 20px;
+    width: 370px;
+    height: 325px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #F3FCFE;
+    border-radius: 25px;
+}
+
+.data3 h2{
+    font-size: 40px;
+    color: #11A7CA;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+
+.data3 h5{
+    font-size: 18px;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+
+.data3 p{
+    font-size: 16px;
+    color: #605F62;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+    text-align: justify;
+    line-height: 150%;
+
+}
+h1{
+
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.pow{
+    
+    
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #605F62;
+    line-height: 60%;
+}
+.container3 {
+    margin-top: 80px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1300px;
+    border-radius: 25px;
+    display: block;
+}
+.iframe1{
+    
+    
+    margin-left: 45px;
+    margin-right: 10px;
+    padding: 20px;
+    display: inline-block;
+    
+    
+   
+}
+.iframe2{
+    margin-right: 10px;
+    
+    padding: 20px;
+    display: inline-block;
+   
+}
+.iframe3{
+    margin-left: 45px;
+    margin-right: 10px;
+    padding: 20px;
+    display: inline-block;
+    
+}
+.iframe4{
+    margin-right: 10px;
+    padding: 20px;
+    display: inline-block;
+    
+}
+.container3 form button{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    color: white;
+    width: 120px;
+    height: 40px;
+    background: -webkit-linear-gradient(to left, #f5af19, #f12711);
+    background: linear-gradient(to left, #f5af19, #f12711);
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 590px;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+
+.container3 form button:hover{
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    transition: 0.3s;
+}
+
+.pol{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #605F62;
+    line-height: 60%;
+}
+.container4 {
+    margin-top: 80px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1300px;
+    border-radius: 25px;
+    display: block;
+}
+.data4{
+    margin-right: 10px;
+    padding: 11px;
+    padding: 20px;
+    width: 370px;
+    height: 325px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #F3FCFE;
+    border-radius: 25px;
+}
+.data4 h5{
+    font-size: 18px;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+
+.data4 p{
+    font-size: 16px;
+    color: #605F62;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+    text-align: justify;
+    line-height: 150%;
+
+}
+.data4 img{
+    padding-bottom: 20px;
+    width: 50px;
+    object-fit: cover;
+}
+.data5{
+    margin-right: 10px;
+    padding: 11px;
+    padding: 20px;
+    width: 370px;
+    height: 325px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #F3FCFE;
+    border-radius: 25px;
+
+}
+.data5 h5{
+    font-size: 18px;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+
+.data5 p{
+    font-size: 16px;
+    color: #605F62;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+    text-align: justify;
+    line-height: 150%;
+
+}
+.data5 img{
+    padding-bottom: 20px;
+    width: 50px;
+    object-fit: cover;
+} 
+.data6{
+    margin-right: 10px;
+    padding: 11px;
+    padding: 20px;
+    width: 370px;
+    height: 325px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #F3FCFE;
+    border-radius: 25px;
+
+}
+.data6 h5{
+    font-size: 18px;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+
+.data6 p{
+    font-size: 16px;
+    color: #605F62;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+    text-align: justify;
+    line-height: 150%;
+
+}
+.data6 img{
+    padding-bottom: 20px;
+    width: 50px;
+    object-fit: cover;
+} 
+.container4 form button{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    color: white;
+    width: 120px;
+    height: 40px;
+    background: -webkit-linear-gradient(to left, #f5af19, #f12711);
+    background: linear-gradient(to left, #f5af19, #f12711);
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 590px;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+
+.container4 form button:hover{
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    transition: 0.3s;
+}
+.map{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    height: 650px;
+    display: block;
+}
+.container5 {
+
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1300px;
+    border-radius: 25px;
+    display: block;
+}
+.container6 {
+
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1300px;
+    border-radius: 25px;
+    display: block;
+}
+.container7 {
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1300px;
+    border-radius: 25px;
+    display: block;
+}
+   
+
+.c1 h4 {
+    color: #434242;
+    font-size: 13px;
+    padding-top: 10px;
+
+}
+.c1 form button {
+    display: inline;
+    background: transparent;
+    border-color: coral;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    margin-left: 250px;
+}
+.c1 form button:hover {
+    background: coral;
+    color: white;
+    transition: 0.3s;
+}
+.c1 {
+    margin-left: 8px;
+    padding: 11px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.c1 h6 {
+
+    font-family: "Roboto", system-ui;
+    color: #DF6812;
+}
+
+.c1 img {
+    width: 400px;
+}
+.c1 a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", system-ui;
+}
+.container5 h1{
+    text-align: left;
+}
+.container6 h1{
+    text-align: left;
+}
+.container7 h1{
+    text-align: left;
+}
+.container8{
+    margin-top: 80px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1300px;
+    border-radius: 25px;
+    display: block;
+}
+.container8 form button{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    color: white;
+    width: 120px;
+    height: 40px;
+    background: -webkit-linear-gradient(to left, #f5af19, #f12711);
+    background: linear-gradient(to left, #f5af19, #f12711);
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 590px;
+   
+    border-radius: 4px;
+}
+
+.container8 form button:hover{
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    transition: 0.3s;
+}
